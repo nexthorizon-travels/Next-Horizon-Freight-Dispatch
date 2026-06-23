@@ -1,283 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Next Horizon Freight Dispatch</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<style>
-
-body{
-  margin:0;
-  font-family:Inter, sans-serif;
-  background:#0b1220;
-  color:#fff;
-}
-
-section{
-  padding:70px 20px;
-  max-width:1100px;
-  margin:auto;
-}
-
-h2{
-  font-size:32px;
-  margin-bottom:20px;
-  text-align:center;
-}
-
-p{ color:#cbd5e1; line-height:1.6; }
-
-/* HERO */
-.hero{
-  height:95vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  background:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1600&q=80');
-  background-size:cover;
-  background-position:center;
-  padding:20px;
-}
-
-.hero h1{
-  font-size:52px;
-  margin:0;
-}
-
-.hero p{
-  max-width:700px;
-  font-size:18px;
-  margin-top:15px;
-  color:#e2e8f0;
-}
-
-.badge{
-  margin-top:10px;
-  background:#1e293b;
-  padding:8px 15px;
-  border-radius:20px;
-  font-size:14px;
-  color:#93c5fd;
-}
-
-/* GRID */
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
-  gap:20px;
-}
-
-.card{
-  background:#111827;
-  padding:20px;
-  border-radius:12px;
-  border:1px solid #1f2937;
-}
-
-.card img{
-  width:100%;
-  border-radius:10px;
-  margin-bottom:10px;
-}
-
-/* HIGHLIGHT BOX */
-.highlight{
-  background:#0f172a;
-  padding:25px;
-  border-radius:12px;
-  border-left:4px solid #3b82f6;
-  margin-top:20px;
-}
-
-/* CONTACT */
-.contact{
-  background:#0f172a;
-  padding:40px;
-  border-radius:12px;
-  text-align:center;
-}
-
-footer{
-  text-align:center;
-  padding:20px;
-  color:#64748b;
-  font-size:14px;
-}
-
-.small{
-  color:#94a3b8;
-  font-size:14px;
-}
-
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Next Horizon Freight Dispatch | Nationwide Truck Dispatch</title>
+  <meta name="description" content="Houston-based freight dispatch support for owner-operators, fleets, dry vans, reefers, flatbeds, box trucks, hotshots, sprinter vans, and power-only carriers.">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<!-- HERO -->
-<div class="hero">
-  <h1>Next Horizon Freight Dispatch</h1>
-  <p>Your Freight. Our Priority. Moving Success Forward.</p>
-
-  <div class="badge">
-    HOUSTON, TEXAS, UNITED STATES
-  </div>
-</div>
-
-<!-- ABOUT -->
-<section>
-  <h2>About Us</h2>
-  <p>
-    Next Horizon Freight Dispatch is a trusted freight dispatching company headquartered in Houston, Texas,
-    dedicated to supporting owner-operators, fleet owners, and trucking companies across the United States.
-  </p>
-
-  <div class="highlight">
-    <b>Founded on Principle:</b> Built by brothers BK and JK on the values of integrity, commitment, and excellence.
-    <br><br>
-    <b>Industry Roots Since 2016:</b> Deep transportation experience powering every dispatch decision we make.
-    <br><br>
-    <b>Built for Partnership:</b> Trucking is more than freight — it’s long-term success.
-  </div>
-</section>
-
-<!-- VISION -->
-<section>
-  <h2>Our Vision</h2>
-  <p>
-    To become one of America’s most trusted freight dispatch companies by delivering exceptional service,
-    maximizing carrier profitability, and building lasting relationships throughout the transportation industry.
-  </p>
-
-  <div class="grid">
-    <div class="card">✔ Exceptional Service</div>
-    <div class="card">✔ Carrier Profitability</div>
-    <div class="card">✔ Lasting Relationships</div>
-  </div>
-</section>
-
-<!-- MISSION -->
-<section>
-  <h2>Our Mission</h2>
-  <p>
-    Simplify trucking operations by providing reliable dispatch services, strategic freight planning,
-    and professional support that allow carriers to focus on safe and efficient transportation.
-  </p>
-
-  <div class="grid">
-    <div class="card">
-      <h3>Maximize Revenue</h3>
-      <p>Securing competitive rates to grow carrier earnings on every haul.</p>
-    </div>
-
-    <div class="card">
-      <h3>Reduce Empty Miles</h3>
-      <p>Strategic load planning to keep trucks moving profitably.</p>
-    </div>
-
-    <div class="card">
-      <h3>Operational Excellence</h3>
-      <p>Professional support with high industry standards.</p>
+  <div class="topbar">
+    <div class="wrap">
+      <span>Houston, Texas - Serving carriers across the United States</span>
+      <span><a href="tel:+18562087584">+1 856-208-7584</a> | <a href="mailto:support@nexthorizon-travels.com">support@nexthorizon-travels.com</a></span>
     </div>
   </div>
-</section>
 
-<!-- SERVICES -->
-<section>
-  <h2>Our Services</h2>
-
-  <div class="grid">
-
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80">
-      <h3>Dry Van</h3>
-      <p>Efficient general cargo transportation solutions.</p>
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Next Horizon Freight Dispatch home">
+        <span class="brand-mark">NH</span>
+        <span>Next Horizon Freight Dispatch</span>
+      </a>
+      <nav class="links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a class="button" href="contact.html">Get Dispatch Help</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80">
-      <h3>Reefer</h3>
-      <p>Temperature-controlled freight management.</p>
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-content">
+          <p class="eyebrow">Professional freight dispatch for serious carriers</p>
+          <h1>Your truck should move with a plan, not guesswork.</h1>
+          <p>Next Horizon Freight Dispatch helps owner-operators, fleet owners, and trucking companies stay loaded, reduce empty miles, and negotiate better freight opportunities across the United States.</p>
+          <div class="hero-actions">
+            <a class="button" href="contact.html">Talk To A Dispatcher</a>
+            <a class="button secondary" href="services.html">View Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Company highlights">
+      <div class="stat"><strong>2016</strong><span>Transportation roots</span></div>
+      <div class="stat"><strong>50</strong><span>States served</span></div>
+      <div class="stat"><strong>8+</strong><span>Equipment types</span></div>
+      <div class="stat"><strong>1:1</strong><span>Dedicated support</span></div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Built for carriers</p>
+            <h2>Dispatch that keeps revenue, routes, and relationships moving.</h2>
+          </div>
+          <p>Founded by brothers BK and JK, Next Horizon was built on integrity, commitment, and practical transportation experience. We handle the daily freight work so drivers can stay focused on safe, efficient delivery.</p>
+        </div>
+
+        <div class="grid three">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=900&q=80" alt="Semi truck moving freight on a highway">
+            <div class="card-body">
+              <h3>Quality Load Search</h3>
+              <p>We look for freight that matches your equipment, preferred lanes, home time, and revenue goals instead of treating every truck the same.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80" alt="Logistics warehouse with trucks and loading docks">
+            <div class="card-body">
+              <h3>Rate Negotiation</h3>
+              <p>Our team communicates with brokers, reviews load details, and negotiates with profitability, timing, and operating costs in mind.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=900&q=80" alt="Dispatcher reviewing freight operations at a computer">
+            <div class="card-body">
+              <h3>Back-Office Support</h3>
+              <p>Carrier packets, rate confirmations, check calls, updates, and paperwork assistance are handled with clear communication.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">Why carriers choose us</p>
+          <h2>A dispatcher who understands the business behind the wheel.</h2>
+          <p>Every truck represents a family, a business, and a livelihood. We build dispatch plans around the way you operate, including preferred lanes, equipment type, home time requirements, broker preferences, and weekly income goals.</p>
+          <ul class="check-list">
+            <li>Dry van and reefer freight</li>
+            <li>Flatbed and step deck support</li>
+            <li>Power-only opportunities</li>
+            <li>Box truck, hotshot, and sprinter dispatch</li>
+            <li>Carrier onboarding help</li>
+            <li>Nationwide broker communication</li>
+          </ul>
+        </div>
+        <img src="https://images.unsplash.com/photo-1565891741441-64926e441838?auto=format&fit=crop&w=1000&q=80" alt="Truck driver checking paperwork near a commercial truck">
+      </div>
+    </section>
+
+    <section class="section dark-band">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Simple process</p>
+            <h2>From setup to booked load, we keep it clear.</h2>
+          </div>
+          <p>Our dispatch workflow is made for busy carriers who want direct communication, organized documents, and a dependable plan for the week.</p>
+        </div>
+        <div class="process">
+          <div class="step"><strong>1</strong><h3>Learn Your Operation</h3><p>We review equipment, lanes, documents, schedule, and target revenue.</p></div>
+          <div class="step"><strong>2</strong><h3>Search The Market</h3><p>We find loads that fit your truck, route, timing, and operating preferences.</p></div>
+          <div class="step"><strong>3</strong><h3>Negotiate And Book</h3><p>We speak with brokers, confirm details, and help complete carrier packets.</p></div>
+          <div class="step"><strong>4</strong><h3>Support The Trip</h3><p>We assist with updates, check calls, paperwork, and the next move.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="wrap">
+        <div>
+          <h2>Ready to keep your truck moving?</h2>
+          <p>Call Next Horizon Freight Dispatch or send your equipment details today.</p>
+        </div>
+        <a class="button" href="contact.html">Start A Conversation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div><strong>Next Horizon Freight Dispatch</strong><br>Houston, Texas, United States</div>
+      <div>Your Freight. Our Priority. Moving Success Forward.</div>
     </div>
-
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80">
-      <h3>Flatbed / Step Deck</h3>
-      <p>Oversized and specialized cargo handling.</p>
-    </div>
-
-    <div class="card">
-      <h3>Power Only</h3>
-      <p>High-demand freight corridor opportunities.</p>
-    </div>
-
-    <div class="card">
-      <h3>Box Trucks / Sprinter Vans</h3>
-      <p>Local and expedited delivery solutions.</p>
-    </div>
-
-    <div class="card">
-      <h3>Fleet Management</h3>
-      <p>Custom dispatch solutions for multi-truck fleets.</p>
-    </div>
-
-  </div>
-</section>
-
-<!-- OPERATIONS -->
-<section>
-  <h2>What We Do</h2>
-
-  <div class="grid">
-    <div class="card">📄 Paperwork Handling</div>
-    <div class="card">💰 Rate Confirmations</div>
-    <div class="card">📍 Load Scheduling</div>
-    <div class="card">📞 Broker Communication</div>
-    <div class="card">🔍 Load Finding</div>
-  </div>
-
-  <div class="highlight">
-    By handling the full administrative workload, Next Horizon keeps your wheels turning and your business growing.
-  </div>
-</section>
-
-<!-- VALUES -->
-<section>
-  <h2>Our Core Values</h2>
-
-  <div class="grid">
-    <div class="card">Integrity</div>
-    <div class="card">Reliability</div>
-    <div class="card">Commitment</div>
-    <div class="card">Excellence</div>
-    <div class="card">Partnership</div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section>
-  <div class="contact">
-    <h2>Contact Us</h2>
-
-    <p class="small">“Your Freight. Our Priority. Moving Success Forward.”</p>
-
-    <p>📍 Houston, Texas, United States</p>
-    <p>📞 +1 (856) 208-7584</p>
-    <p>✉️ support@nexthorizon-travels.com</p>
-    <p>🕐 Mon–Fri: 8:00 AM – 5:00 PM (CST)</p>
-  </div>
-</section>
-
-<footer>
-  © 2026 Next Horizon Freight Dispatch
-</footer>
-
+  </footer>
 </body>
 </html>
