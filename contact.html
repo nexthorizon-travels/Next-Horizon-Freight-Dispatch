@@ -57,7 +57,12 @@
           <p class="eyebrow">Carrier intake</p>
           <h2>Request dispatch support</h2>
           <p>Use this form layout on your website to collect the details a dispatcher needs before the first conversation.</p>
-          <form action="mailto:support@nexthorizon-travels.com" method="post" enctype="text/plain">
+          <form action="https://formsubmit.co/support@nexthorizon-travels.com" method="post">
+            <input type="hidden" name="_subject" value="New dispatch support request - Next Horizon">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://www.nexthorizon-travels.com/thank-you.html">
+
             <label for="name">Name</label>
             <input id="name" name="Name" type="text" required>
 
